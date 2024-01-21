@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .quiz-container {
+            margin: 0 auto;
+            width: 500px;
+            border: 1px solid #ccc;
+            padding: 20px;
+          }
+          
+          .progress-bar {
+            background-color: #eee;
+            height: 10px;
+            width: 100%;
+            border-radius: 5px;
+          }
+          
+          .filled-bar {
+            background-color: #333;
+            height: 100%;
+            width: 0%;
+            transition: width 0.5s ease-in-out;
+          }
+          
+          #question-number {
+            text-align: center;
+            margin-top: 10px;
+          }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="progress-bar">
+          <div class="filled-bar"></div>
+        </div>
+        <p id="question-number">Question 1/10</p>
+        </div>
+</body>
+</html>
